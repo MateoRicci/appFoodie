@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+:root {
+  --primery-color: #009aff;
+  --secondary-color: #056bae;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Acme', sans-serif;
+}
+
+header {
+    height: 100px;
+    background-color: var(--primery-color);
+}
+
+header h2 { 
+    color: white;
+    font-size: 5rem;
+    padding-left: 40px;
+    padding-top: 18px;
+}
+
+header .logo img {
+    display: block;
+    margin-left: 75%;
+    width: 180px;
+    margin-top: -75px;
+}
+.conexion {
+    border: solid black 5px;
+    height: 200px;
+    margin: 1.5rem;
+}
+
+.mesa {
+    border: solid black 5px;
+    height: 200px;
+    margin: 1.5rem;
+}
+
+main .conexion div {
+    margin-left: 45%;
+    margin-top: 85px;
+}
+
+.button6 {
+    padding: 25px 40px;
+    border-radius:0.15em;
+    box-sizing: border-box;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size: 2rem;
+    font-weight:600;
+    color:#FFFFFF;
+    background-color: var(--primery-color);
+    box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
+    text-align:center;
+    position:relative;
+}
+.button6:active {
+    top:0.1em;
+}
+
+@media all and (max-width:30em){
+    .button6 {
+        display: block;
+        margin: 0.4em auto;
+    }
+}
+
+main .mesa h3 {
+    position: absolute;
+    color: var(--primery-color);
+    font-size: 5rem;
+    padding-left: 40px;
+    padding-top: 45px;
+}
+
+main .mesa div {
+    padding-left: 35%;
+    padding-top: 70px;
+}
+
+main .conexion h3 {
+    position: absolute;
+    color: var(--primery-color);
+    font-size: 5rem;
+    padding-left: 40px;
+    padding-top: 60px;
+}

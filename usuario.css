@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+:root {
+  --primary-color: #009aff;
+  --secondary-color: #056bae;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Acme', sans-serif;
+}
+
+.header {
+    height: 100px;
+    background-color: var(--primary-color)
+}
+
+header .logo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+main h3 {
+    font-size: 3rem;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+main .opciones {
+    padding-top: 10px;
+    padding-left: 15px;
+    display: block;
+}
+
+main .opciones input {
+    width: 3rem;
+    height: 3rem;
+}
+
+main .opciones .name {
+    padding-left: 10px;
+    position: absolute;
+    font-size: 2.5rem;
+}
+
+main .opciones .price{
+    padding-left: 60%;
+    position: absolute;
+    font-size: 2.5rem;   
+}
+
+main .boton {
+    margin-top: 20px;
+    margin-bottom: -9000px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+}
+
+main .boton .button6 {
+    display:inline-block;
+    padding:.7em 1.4em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.15em;
+    box-sizing: border-box;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-weight:400;
+    color:#FFFFFF;
+    background-color:var(--primary-color);
+    box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
+    text-align:center;
+    position:relative;
+}
+main .boton .button6:active {
+    top:0.1em;
+}
+
+@media all and (max-width:30em){
+    main .boton .button6 {
+        display: block;
+        margin: 0.4em auto;
+    }
+}
